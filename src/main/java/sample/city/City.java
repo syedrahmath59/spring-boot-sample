@@ -3,6 +3,11 @@ package sample.city;
 import org.seasar.doma.Entity;
 import org.seasar.doma.Id;
 
+/**
+ * 
+ * @author syedrahmathit
+ *
+ */
 @Entity
 public class City {
 
