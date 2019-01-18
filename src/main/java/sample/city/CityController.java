@@ -29,6 +29,7 @@ public class CityController {
      */
     @RequestMapping("/")
     public List<City> selectAll() {
+    	System.out.println("###################");
         return dao.selectAll();
     }
     /**
