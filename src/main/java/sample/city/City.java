@@ -6,7 +6,7 @@ import org.seasar.doma.Id;
 /**
  * 
  * @author syedrahmathit
- *
+ *city
  */
 @Entity
 public class City {
