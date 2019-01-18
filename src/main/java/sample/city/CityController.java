@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/** 
+ * 
+ * @author user
+ *
+ */
 @RestController
 @Transactional
 public class CityController {
@@ -18,7 +23,10 @@ public class CityController {
     public CityController(CityDao dao) {
         this.dao = dao;
     }
-
+    /**
+     * 
+     * @return
+     */
     @RequestMapping("/")
     public List<City> selectAll() {
         return dao.selectAll();
